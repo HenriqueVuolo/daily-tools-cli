@@ -19,7 +19,7 @@ var (
 
 var diceCmd = &cobra.Command{
 	Use:   "dice",
-	Short: "Roll or or more dice",
+	Short: "Roll one or more dice",
 	Long: `The dice command allows you to simulate the roll of one or more dice. By default, it rolls a six-sided die (d6), but you can customize the number of dice (A), faces (X), and apply a modifier (B).
 
 - Format: AdX + B
