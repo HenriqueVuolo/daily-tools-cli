@@ -11,10 +11,15 @@ Daily Tools CLI is a command-line interface (CLI) developed in Go. The purpose o
 
 The motivation behind creating this project was to learn Go dynamically, and so far, it has been successful. Each new feature brings the opportunity to understand new concepts.
 
+<div align="center">
+  
+![gif of weather command example](https://github.com/HenriqueVuolo/daily-tools-cli/assets/48316387/3af09411-8c33-4c74-9c20-f404a5fb9016)
+
+</div>
+
 Initially, three commands (`weather`, `dice`, and `password`) were implemented, but the plan is to continue expanding the variety of tools, maintaining a constant learning experience.
 
 ![screenshot of daily-tools-cli --help](https://github.com/HenriqueVuolo/daily-tools-cli/assets/48316387/e986774f-88b2-467a-948f-2f474f886a0f)
-
 
 ## :rocket: Techs
 
