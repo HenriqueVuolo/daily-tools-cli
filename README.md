@@ -13,40 +13,33 @@ The motivation behind creating this project was to learn Go dynamically, and so 
 
 Initially, three commands (`weather`, `dice`, and `password`) were implemented, but the plan is to continue expanding the variety of tools, maintaining a constant learning experience.
 
+![screenshot of daily-tools-cli --help](https://github.com/HenriqueVuolo/daily-tools-cli/assets/48316387/e986774f-88b2-467a-948f-2f474f886a0f)
+
+
 ## :rocket: Techs
 
 - [Golang](https://go.dev/)
 - [Cobra](https://github.com/spf13/cobra)
 
+
 ## 🛠️ Commands
+<br>
 
-Weather 🌥️
-- Get the current weather information for a specific location
+<div align="center"><h3>Weather 🌥️</h3></div>
 
-```bash
-> daily-tools-cli weather -c London
+![screenshot of daily-tools-cli weather --help](https://github.com/HenriqueVuolo/daily-tools-cli/assets/48316387/0e51a6fc-ae14-4b91-9e20-e4d5f76fd05f)
 
-```
+<div align="center"><h3>Dice 🎲</h3></div>
 
+![screenshot of daily-tools-cli dice --help](https://github.com/HenriqueVuolo/daily-tools-cli/assets/48316387/6b2e1c03-8e58-444d-a030-6878a14de2f8)
 
-Dice 🎲
-- The dice command allows you to simulate the roll of one or more dice. By default, it rolls a six-sided die (d6), but you can customize the number of dice (A), faces (X), and apply a modifier (B).
+<div align="center"><h3>Password 🔒</h3></div>
 
-```bash
-> daily-tools-cli dice -A 2 -X 8 B 3
+![screenshot of daily-tools-cli password --help](https://github.com/HenriqueVuolo/daily-tools-cli/assets/48316387/2440ee78-e774-49f1-8561-24c08c877240)
 
-2d8 + 3 = 13
-```
+## License
 
-
-Password 🔒
-- Generate a random password
-
-```bash
-> daily-tools-cli password -l 10 -u -n
-
-c3BkF3jafA
-```
+See [`LICENSE`](./LICENSE)
 
 <br><br>
 <p align="center">
