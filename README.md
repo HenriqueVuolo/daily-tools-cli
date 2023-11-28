@@ -21,16 +21,17 @@ Initially, three commands (`weather`, `dice`, and `password`) were implemented, 
 ## 🛠️ Commands
 
 Weather 🌥️
-- Fornece informações meteorológicas da localidade escolhida
-  
+- Get the current weather information for a specific location
+
 ```bash
 > daily-tools-cli weather -c London
 
-
 ```
 
+
 Dice 🎲
-- Ferramenta de rolagem de dados
+- The dice command allows you to simulate the roll of one or more dice. By default, it rolls a six-sided die (d6), but you can customize the number of dice (A), faces (X), and apply a modifier (B).
+
 ```bash
 > daily-tools-cli dice -A 2 -X 8 B 3
 
@@ -39,7 +40,7 @@ Dice 🎲
 
 
 Password 🔒
-- Gera senhas aleatórias.
+- Generate a random password
 
 ```bash
 > daily-tools-cli password -l 10 -u -n
